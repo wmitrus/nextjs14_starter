@@ -1,0 +1,19 @@
+{
+  //"http.proxy": "http://f4monitoring:Websurfm0n@webproxy-de.corp.vattenfall.com:8080/",
+  // The value to send as the `Proxy-Authorization` header for every network request.
+  //"http.proxyAuthorization": null,
+  // Controls whether the proxy server certificate should be verified against the list of supplied CAs.
+  //"http.proxyStrictSSL": false,
+  // Use the proxy support for extensions.
+  //  - off: Disable proxy support for extensions.
+  //  - on: Enable proxy support for extensions.
+  //  - fallback: Enable proxy support for extensions, fall back to request options, when no proxy found.
+  //  - override: Enable proxy support for extensions, override request options.
+  //"http.proxySupport": "override"
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "files.eol": "\n"
+}
