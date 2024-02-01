@@ -26,6 +26,13 @@
     "react"
   ],
   "rules": {
+    "react/require-default-props": [
+      "error", 
+      {
+        "forbidDefaultForRequired": true,        
+        "functions": "defaultArguments" //Here
+      }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
